@@ -1,0 +1,32 @@
+
+<div class="container">
+    <div class="search-book">
+        <input type="text" name="search" [(ngModel)]="searchText" placeholder="Search for book">
+
+    </div>
+</div>
+
+<table class="table table-striped">
+    
+        <tr>
+            <th>author</th>
+            <th>country</th>
+            <th>language</th>
+            <th>link</th>
+            <th>pages</th>
+            <th>title</th>
+            <th>year</th>
+        </tr>
+    
+    <tbody>
+        <tr *ngFor="let book of books | filter:searchText">
+            <td>{{book.author}}</td>
+            <td>{{book.country}}</td>
+            <td>{{book.language}}</td>
+            <td>{{book.link}}</td>
+            <td>{{book.pages}}</td>
+            <td>{{book.title}}</td>
+            <td>{{book.year}}</td>
+        </tr>
+    </tbody>
+</table>

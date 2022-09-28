@@ -1,0 +1,28 @@
+[
+  {
+    
+    "name": "Things Fall Apart",
+    "price": "Chinua Achebe",
+    "description": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n"
+   
+  },
+  {
+    
+    "name": "Fairy tales",
+    "price": "Hans Christian Andersen",
+    "description": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n"
+ 
+  },
+  {
+    
+    "name": "The Divine Comedy",
+    "price": "Dante Alighieri",
+    "description": "https://en.wikipedia.org/wiki/Divine_Comedy\n"
+   
+  },
+  {
+    "name": "Molloy, Malone Dies, The Unnamable, the trilogy",
+    "price": "Samuel Beckett",
+    "description": "https://en.wikipedia.org/wiki/Molloy_(novel)\n"
+  }
+]

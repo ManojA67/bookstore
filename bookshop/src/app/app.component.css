@@ -1,0 +1,28 @@
+   .container2{
+     background-image: url("../app/JUM.jpg"); 
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     /* background-color:#1496b0; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     width:100%;
+     margin: 0;
+     padding:0;
+     height: 200px;
+     
+     
+    
+    
+}
+      
+
+/* .container{
+    background-image: url("../app/JUM.jpg");
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}  */
